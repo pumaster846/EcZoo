@@ -1,0 +1,150 @@
+/*index.php*/
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #FAE676;
+}
+.wrapper{
+	margin: 10% auto;
+	padding: 0 100px;
+}
+.autorized {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: auto;
+	border: 2px solid #000;
+	border-bottom: none;
+}
+.header__title {
+	width: 100%;
+	text-align: center;
+}
+.login {
+	text-align: center;
+	padding: 20px;
+	font-size: 30px;
+	border-left: 2px solid #000;
+}
+.login a {
+	text-decoration: none;
+
+	color: #D7880C;
+}
+.table__block {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 50px 20px;
+	border: 2px solid #000;
+}
+.block__left {
+}
+.block__title {
+	text-align: center;
+}
+.table__info {
+	margin-top: 20px;
+	padding: 0 20px;
+	text-align: center;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+}
+.block-right {
+}
+.footer {
+	border: 2px solid #000;
+	border-top: none;
+}
+
+/*login.php*/
+.login-str {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+	margin: 40px 50%;
+}
+.login__title{
+	margin: 20px 0 0;
+}
+.login__subtitle{
+	margin: 20px 0 30px;
+}
+.login__menu {
+	width: 300px;
+	padding: 0 25px;
+	border: 5px solid grey;
+	border-radius: 20px;
+	background-color: #E9E4E4;
+	box-shadow: 10px 5px 30px rgba(0,0,0,0.5);
+}
+.title1 {
+	text-align: center;
+	font-size: 40px;
+	border-bottom: 2px solid black;
+}
+
+.title3{
+	width: 100%;
+	padding: 5px 20px;
+	margin: 10px 0 0;
+	background-color: #D7880C;
+	opacity: 60%;
+}
+.subtitle{
+	color: grey;
+}
+.button{
+	margin: 10px 0;
+	font-size: 20px;
+	width: 100%;
+	background: none;
+}
+.message-error{
+	padding: 10px 0;
+}
+
+/*Ed.php*/
+.block-Ed{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+	margin: 40px 50%;
+}
+.blockEd{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 300px;
+	padding: 0 25px;
+	border: 5px solid grey;
+	border-radius: 20px;
+	background-color: #E9E4E4;
+	box-shadow: 10px 5px 30px rgba(0,0,0,0.5);
+}
+.lastname{
+	margin: 0 0 20px;
+}
+.firstname{
+	margin: 0 0 20px;
+}
+.group{
+	margin: 0 0 20px;
+}
+.DR{
+	margin: 0 0 20px;
+}
+.aver-ball{
+}
+.buttonEd{
+	margin: 10px 0;
+	font-size: 20px;
+	width: 100%;
+	background: none;
+}

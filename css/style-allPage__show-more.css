@@ -1,0 +1,272 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "EB Garamond", serif;
+}
+
+.comeback {
+  font-size: 30px;
+  color: #D5D4D4;
+  user-select: none;
+  background: rgba(0,100,0,0.5);
+  border-radius: 0 0 5px 5px;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+  border-bottom: 3px solid #D5D4D4;
+  padding: 5px 10px;
+}
+.name-site {
+  font-size: 50px;
+  color: #000;
+  user-select: none;
+  padding: 0 10px;
+  background: #fff;
+  border-radius: 0 0 20px 20px;
+  opacity: 30%;
+}
+.search {
+  user-select: none;
+}
+.fa-search {
+  font-size: 15px;
+}
+.title2{
+  font-size: 20px;
+}
+.animal-name {
+  font-size: 35px;
+}
+
+.wrapper {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.two-blocks {
+  display: flex;
+}
+.wrapper .two-blocks .left-block {
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: #0a0a0a;
+  padding-left: 30px;
+}
+.navigation-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.user-name {
+  margin: 10px 0 10px;
+  word-wrap: break-word;
+  font-size: 15px;
+}
+
+.authorization-state {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px 0 50px;
+  border-radius: 30px 0 0 30px;
+}
+.authorization-state a{
+  padding: 7px 0; 
+  color: #a2a2a2;
+}
+.fa-lock{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #a2a2a2;
+}
+
+.menu a{
+  color: #a2a2a2;
+  user-select: none;
+}
+.menu a .active {
+  color: #739f46;
+}
+.menu .list-menu {
+  padding: 10px 0;
+}
+
+.wrapper .two-blocks .right-block {
+  font-size: 10px;
+}
+.wrapper .two-blocks .right-block .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1095px;
+  height: 700px;
+  padding: 0 30px 30px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.content-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-textbox {
+  font-size: 15px;
+  padding: 0 10px;
+  user-select: none;
+  margin-right: 10px;
+}
+
+.content {
+  padding: 30px;
+}
+.name-animal_title{
+  font-size: 50px;
+  text-align: center;
+}
+.content__two-blocks {
+  display: flex;
+  margin-top: 30px;
+}
+.content__left-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info-table {
+  width: 310px;
+}
+.table__row{
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #fff;
+}
+.table__row:last-child{
+  border-bottom: 2px solid #fff;
+}
+.row__text, .row__content {
+  font-size: 20px;
+  padding: 10px 5px;
+}
+.row__content {
+  color: #739f46;
+}
+.content__right-block1 {
+  padding: 0 30px;
+}
+.animal-info__text{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 30px;
+  color: #739f46;
+}
+.animal-info__subtext{
+  font-size: 20px;
+  text-indent: 1.5em;
+}
+
+.comeback:hover{
+  color: #fff;
+  border-bottom: 3px solid #fff;
+  transition: 0.5s ease;
+}
+
+.name-site:hover {
+  opacity: 100%;
+  color: #fff;
+  background-color: #739f46;
+  transition: 0.6s ease;
+}
+
+.list-menu:hover, .authorization-state:hover {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+.authorization-state:hover .fa-lock{
+  left: -10px;
+}
+.authorization-state:hover a {
+  color: #739f46;
+}
+.show-more:hover {
+  background: #739f46;
+}
